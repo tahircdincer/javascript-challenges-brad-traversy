@@ -22,5 +22,6 @@ Problem was based on how many characters so basically we made a counter variable
 Each time current iteration' s ' element ' matches to second parameter ( char ) ' increments ' the counter.
 Then returning the counter variable.
 
+Case sensitive.
 
 */
