@@ -4,6 +4,7 @@
 // First, I solved without a loop then I realized the test word has 2 letter ' e 's.
 // When loop ' isn' t ' applied ' e ' letter counted only once. Then I fixed it when I applied a loop.
 // Used ' or ' operator?
+// ' .toLowerCase() ' because ' instructor ' implied this won' t be case sensitive.
 
 const countVowels = function (word) {
   let countVowel = 0;
@@ -21,6 +22,7 @@ const countVowels = function (word) {
   return countVowel;
 };
 console.log(countVowels(" deneme "));
+
 /*
 
 // First try before ' apply ' loop, loop fixed it
