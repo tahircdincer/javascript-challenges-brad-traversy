@@ -13,6 +13,7 @@ const countVowels = function (word) {
     if (
       wordWord[i] === "a" ||
       wordWord[i] === "e" ||
+      wordWord[i] === "i" ||
       wordWord[i] === "o" ||
       wordWord[i] === "u"
     ) {
