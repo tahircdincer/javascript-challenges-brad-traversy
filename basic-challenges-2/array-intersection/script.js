@@ -3,7 +3,7 @@
 const arrayIntersection = function (arr, arr2) {
   const arr3 = [];
   for (let i = 0; i < arr.length && i < arr2.length; i++) {
-    if (arr2.includes(arr[i])) {
+    if (arr2.includes(arr[i]) && !arr3.includes(arr[i])) {
       arr3.push(arr[i]);
     }
   }
@@ -19,5 +19,6 @@ This function requires a loop so mutual numbers' ll ' pushed ' into the empty ar
 I thought the way of knowing an ' element ' is in both arrays or not is ' includes ' method.
 So if arr2 includes arr1' s ' element ' in the current iteration, then this ' element ' ' gets ' ' pushed ' into the ' arr3 '.
 
+So ' element ' shouldn' t be on array twice. So ' && ' + ' Not ' ' includes the ' arr ' ' element ' of current iteration
 
 */
