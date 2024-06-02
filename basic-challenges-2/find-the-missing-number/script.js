@@ -1,7 +1,5 @@
 "use strict";
 
-// Array reduce uygulanır - Array' in en sağdaki ögesi * array' in en sağdaki ögesi + 1 / 2 reduce' a eşit değilse array toplamı - reduce
-
 const findMissingNumber = function (arr) {
   const total = arr.reduce((curr, acc) => curr + acc, 0);
   const n = arr.at(-1);
